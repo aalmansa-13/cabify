@@ -9,7 +9,7 @@ be used by the engine.
 
 Mainly for simplicity and trying to fit it within 3 hours, I have left out:
 * No different currencies supported
-* The repositories are very simple and don't implement any persistence mechanism.
+* The repositories use static items and don't implement any persistence mechanism.
 * No injection framework used for simplicity
 * No logging added, although Production code should have it
 
@@ -17,9 +17,5 @@ Things included:
 * Used BigDecimal in operations to avoid rounding issues
 * Unit tests using Spock and Groovy
 * Used the lombok library (https://projectlombok.org/) to reduce boiler plate code
-
-I enjoyed it anyway, I wished I could have more time.
-
-Thanks and kind regards!
 
 
