@@ -19,3 +19,6 @@ Things included:
 * Used the lombok library (https://projectlombok.org/) to reduce boiler plate code
 
 
+To run it, from the command line:
+cd cabify-master
+./gradlew build
